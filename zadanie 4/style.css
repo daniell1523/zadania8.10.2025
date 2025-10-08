@@ -1,0 +1,17 @@
+*{ font-family: 'Arial';}
+#lewy {
+    float: left;
+    width: 48%;
+    background-color: lightblue;
+    height: 100px;
+  text-align: left;
+    padding: 5px;
+}
+#prawy {
+    float: right;
+    width: 48%;
+    background-color: lightgreen;
+        height: 100px;
+text-align: left;
+    padding: 5px;
+}
