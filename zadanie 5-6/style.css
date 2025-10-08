@@ -1,0 +1,25 @@
+* { font-family: 'Arial';}
+main {
+    float: left;
+    width: 65%;
+    background-color: grey;
+    height: 300px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+aside {
+    float: right;
+    width: 32%;
+    background-color: lightgrey;
+    height: 300px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+footer {
+   background-color: darkgrey;
+   clear: both;
+   height: 100px;
+    text-align: center;
+    padding: 10px;
+
+}
