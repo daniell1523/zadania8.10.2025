@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.kontener-glowny {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px dashed #ccc;
+    background-color: #fff;
+    display: flex; 
+    gap: 20px; 
+}
+main {
+    flex-grow: 1; 
+    width: 70%; 
+}
+
+.wpis {
+    float: left;
+    width: 48%; 
+    margin: 1%; 
+    background: #eee;
+    padding: 15px;
+    min-height: 150px; 
+    border-radius: 5px;
+}
+
+main::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.panel-boczny {
+    width: 30%; 
+    padding: 15px;
+    background: #fff;
+    border-left: 1px solid #ccc;
+    min-height: 150px;
+}
+
+.panel-boczny h3 {
+    margin-top: 0;
+}

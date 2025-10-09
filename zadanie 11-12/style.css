@@ -1,0 +1,35 @@
+.blok {
+    float: left;
+    width: 48%; 
+    margin: 1%;
+    box-sizing: border-box; 
+    border: 2px solid black;
+    background-color: #3f9bff;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 40px 10px;
+    min-height: 150px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding-top: 50px;
+}
+
+.kontener {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    border: 3px dashed #ccc;
+    padding: 10px; 
+    background-color: white;
+}
+
+.kontener::after {
+    content: "";
+    display: table;
+    clear: both;
+}
