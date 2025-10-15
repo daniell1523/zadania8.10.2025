@@ -1,42 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Zadanie 14 - Sklep Elektroniczny</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <header><h1>Sklep elektroniczny</h1></header>
-    <nav> Home | Produkty | Koszyk | Kontakt </nav>
-    <aside>
-    <h2>Kategorie</h2>
-        <ul>
-            Telewizory<br>
-            Smartfony<br>
-            Laptopy<br>
-            Akcesoria<br>
-        </ul>
-    </aside>
-    <main>
-    <h2>Nasze produkty</h2>
-    <img src="smartfon.jpg" alt="Produkt 1">
-    <p>Smartfon</p>
-    <p>2999 zł</p>
 
-    <img src="laptop.jpg" alt="Produkt 1">
-    <p>Laptop</p>
-    <p>4599 zł</p>
+    <header class="header-banner">
+        <h1>Sklep Elektroniczny</h1>
+    </header>
 
-    <img src="smartwatch.jpg" alt="Produkt 1">
-    <p>smartwatch</p>
-    <p>149 zł</p>
+    <nav class="main-nav">
+        <a href="#">Home</a> |
+        <a href="#">Produkty</a> |
+        <a href="#">Koszyk</a> |
+        <a href="#">Kontakt</a>
+    </nav>
 
-    <img src="sluchawki.jpg" alt="Produkt 1">
-    <p>sluchawki</p>
-    <p>999 zł</p>
+    <div class="container">
+        <aside class="kategorie">
+            <h2>Kategorie</h2>
+            <ul>
+                <li>Smartfony</li>
+                <li>Laptopy</li>
+                <li>Tablety</li>
+                <li>Akcesoria</li>
+            </ul>
+        </aside>
 
+        <main class="produkty-glowna">
+            <h2>Nasze produkty</h2>
+            
+            <div class="lista-produktow">
+                <div class="produkt">
+                    <i class="fas fa-mobile-alt produkt-ikona"></i>
+                    <h3>Smartphone</h3>
+                    <p class="cena">2499 zł</p>
+                </div>
 
-    </main>
-</body>
-</html>
+                <div class="produkt">
+                    <i class="fas fa-laptop produkt-ikona"></i>
+                    <h3>Laptop</h3>
+                    <p class="cena">4599 zł</p>
+                </div>
+
+                <div class="produkt">
+                    <i class="fas fa-watch produkt-ikona"></i>
+                    <h3>Smartwatch</h3>
+                    <p class="cena">899 zł</p>
+                </div>
+
+                <div class="produkt">
+                    <i class="fas fa-headphones-alt produkt-ikona"></i>
+                    <h3>Słuchawki</h3>

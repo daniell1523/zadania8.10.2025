@@ -1,22 +1,111 @@
-* { 
-    font-family: 'Arial';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
 }
- header{
-height: 100px;
-    background: linear-gradient(to right, #af0899, #d60478);
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+body {
+    background-color: #f4f4f4;
+}
+
+.header-banner {
+    background: linear-gradient(to right, #ff66a4, #c966ff);
     color: white;
- }
- nav { 
+    text-align: center;
+    padding: 30px 0;
+    font-size: 1.8em;
+    border: 3px dashed #ddd; 
+    border-radius: 5px;
+    margin: 20px auto 0;
+    width: 90%;
+}
+
+.main-nav {
     background-color: #333;
     color: white;
     text-align: center;
     padding: 10px 0;
-    font-size: 18px;
+    margin-bottom: 20px;
+    width: 90%;
+    margin: 0 auto;
 }
-aside {
-    
+
+.main-nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.container {
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    border: 1px dashed #ccc;
+}
+
+.kategorie {
+    flex-basis: 20%;
+    padding: 15px;
+    border-right: 1px dashed #ccc;
+}
+
+.kategorie h2 {
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 1.5em;
+}
+
+.kategorie ul {
+    list-style: none;
+}
+
+.kategorie li {
+    padding: 5px 0;
+    color: #666;
+}
+
+.produkty-glowna {
+    flex-basis: 78%;
+    margin-left: 2%;
+    padding: 15px;
+}
+
+.produkty-glowna h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 1.5em;
+}
+
+.lista-produktow {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -1%;
+}
+
+.produkt {
+    width: 23%;
+    margin: 1%;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 15px 5px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.produkt-ikona {
+    font-size: 3em;
+    color: #6c63ff;
+    margin-bottom: 10px;
+}
+
+.produkt h3 {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.cena {
+    color: #ff3366;
+    font-weight: bold;
 }
